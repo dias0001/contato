@@ -137,7 +137,7 @@ margin-bottom: 50px;
         flex-wrap: wrap;    
 
     }
-       
+
     #form-container,
     #address-container {
         flex: 1 1 100%;
@@ -156,6 +156,26 @@ margin-bottom: 50px;
 
     #contact-form {
         width: 100%;
+}
+
+#contact-form input,
+#contact-form label,
+#contact-fomr textarea {
+    border-color: #AAA;   
+}
+
+#address-container {
+    background-position: 0;
+    height: 500px;
+}
+
+.fade {
+    opacity: .8;
+}
+
+#address-content {
+    top: 25px;
+    left: 25%;
 }
     }
        
